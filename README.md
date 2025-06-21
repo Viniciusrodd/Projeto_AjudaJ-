@@ -22,9 +22,10 @@ O **AjudaJá** foi criado para facilitar ações de solidariedade local, promove
 - **Cadastro e login** - sistema seguro de autenticação.
 - **Criar pedidos de ajuda** - publique solicitações como caronas, doações, indicações, etc.
 - **Oferecer ajuda** - compartilhe o que pode doar ou oferecer.
-- **Filtrar por tipo, localização e urgência** - encontre rapidamente pedidos próximos. (implementação futura)
-- **Comentar e responder** - interação direta entre membros da comunidade.
-- **Acompanhar histórico** - visualize suas interações e participações passadas. (implementação futura)
+- **Filtrar por tipo, localização e urgência** - encontre rapidamente pedidos próximos.
+- **Comentar e responder** - interação entre membros da comunidade.
+- **Conversar via chat** - interação direta entre usuários por mensagens privadas.
+- **Acompanhar histórico** - visualize suas interações, participações passadas, conversas.
 
 ### 🛡️ Moderador voluntário - (tarefas futuras)
 
@@ -36,11 +37,11 @@ O **AjudaJá** foi criado para facilitar ações de solidariedade local, promove
 ## 💥 Destaques técnicos
 
 - **🔐 Sistema de permissões** - JWT (usuário comum e moderador).
-- **📍 Busca geolocalizada** - filtragem por raio e categorias. (implementação futura)
-- **📊 Dashboard com métricas** - painel para monitoramento regional. (implementação futura)
-- **💬 Módulo de mensagens** - comunicação direta entre usuários. (implementação futura)
+- **💬 Módulo de mensagens** - comunicação direta entre usuários.
 - **🗂️ Estrutura organizada** - separação clara entre services, controllers e middlewares.
 - **📝 Código documentado** - preparado para contribuições open-source.
+- **📍 Busca geolocalizada** - filtragem por raio e categorias. (implementação futura)
+- **📊 Dashboard com métricas** - painel para monitoramento regional. (implementação futura)
 
 
 ## 🖥️ Tecnologias utilizadas
@@ -57,6 +58,7 @@ O **AjudaJá** foi criado para facilitar ações de solidariedade local, promove
 - **Mongoose (MongoDB)** - armazenamento flexível para comentários, mensagens e avaliações.
 - **JWT** - autenticação e controle de permissões.
 - **Multer** - upload de arquivos (ex.: imagens de perfil).
+- **Socket.io** - comunicação entre usuários por chat.
 
 
 ## 🚀 Como rodar o projeto localmente
